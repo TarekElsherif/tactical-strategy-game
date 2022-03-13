@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 709638050054139945, guid: 1fa99095e2040bb41906e3217ddd3cd9, type: 3}
       propertyPath: m_Name
-      value: BlueSoldieUnit
+      value: BlueSoldierUnit
       objectReference: {fileID: 0}
     - target: {fileID: 3555241833946560544, guid: 1fa99095e2040bb41906e3217ddd3cd9, type: 3}
       propertyPath: m_Enabled

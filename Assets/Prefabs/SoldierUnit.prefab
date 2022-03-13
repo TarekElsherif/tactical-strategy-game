@@ -206,10 +206,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxHealth: 100
-  _attackDamage: 60
-  _attackRange: 10
+  _attackDamage: 30
+  _attackRange: 7
   _movementSpeed: 10
-  _movementRange: 15
+  _movementRange: 10
 --- !u!114 &408090911025492258
 MonoBehaviour:
   m_ObjectHideFlags: 0
