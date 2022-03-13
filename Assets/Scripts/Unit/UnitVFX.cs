@@ -10,6 +10,8 @@ public class UnitVFX : MonoBehaviour
     [Header("References:")]
     [SerializeField] Outline _outline;
     [SerializeField] SkinnedMeshRenderer _mesh;
+    [SerializeField] ParticleSystem _hitParticles;
+    [SerializeField] ParticleSystem _shootParticles;
 
     [Header("Settings")]
     [SerializeField] Color _highlightColor;
@@ -27,6 +29,7 @@ public class UnitVFX : MonoBehaviour
         _unit.OnSelect += Select;
         _unit.OnUnselect += Unselect;
         _unit.OnDamageTaken += HitEffect;
+        _unit.OnStartAttack += Shoot;
     }
 
     void OnDisable()
@@ -36,6 +39,7 @@ public class UnitVFX : MonoBehaviour
         _unit.OnSelect -= Select;
         _unit.OnUnselect -= Unselect;
         _unit.OnDamageTaken -= HitEffect;
+        _unit.OnStartAttack -= Shoot;
     }
 
     void Highlight()
@@ -61,7 +65,15 @@ public class UnitVFX : MonoBehaviour
 
     void HitEffect(float damage)
     {
+        _hitParticles.gameObject.SetActive(true);
+        _hitParticles.Play();
         StartCoroutine(ApplyMaterialColorEffect(_mesh.material, 0.2f, Color.red));
+    }
+
+    void Shoot(UnitController unit)
+    {
+        _shootParticles.gameObject.SetActive(true);
+        _shootParticles.Play();
     }
 
     IEnumerator ApplyMaterialColorEffect(Material mat, float fadeDuration, Color color)
