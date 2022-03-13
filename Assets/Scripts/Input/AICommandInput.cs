@@ -75,7 +75,7 @@ public class AICommandInput : AbstractCommandInput
         if (attack)
         {
             rand = Random.Range(0, 100);
-            if (rand < aggression)
+            if (rand < 50)
                 return AIAction.AttackWeakestEnemy;
             else
                 return AIAction.AttackNearestEnemy;
