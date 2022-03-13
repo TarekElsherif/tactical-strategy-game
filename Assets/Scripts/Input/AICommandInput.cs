@@ -102,7 +102,6 @@ public class AICommandInput : AbstractCommandInput
     {
         _army.SelectUnit(unit);
 
-
         UnitController weakestEnemy = FindWeakestUnit(enemies);
         AttackEnemy(unit, weakestEnemy, onDone);
     }
@@ -136,7 +135,9 @@ public class AICommandInput : AbstractCommandInput
 
         if (dist > unit.AttackRange)
         {
-            Vector3 dirNorm = dir.normalized * unit.AttackRange;
+            float randDistance = Random.Range(0.5f,1f);
+            float range = Mathf.Min(unit.AttackRange, (dist - unit.AttackRange / 2));
+            Vector3 dirNorm = dir.normalized * range;
             dirNorm += unit.transform.position;
             NavMeshHit hit;
             NavMesh.SamplePosition(dirNorm, out hit, unit.AttackRange, 1);
