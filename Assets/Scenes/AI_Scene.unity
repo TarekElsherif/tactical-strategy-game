@@ -210,14 +210,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueSoldieUnit (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -274,10 +266,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
 --- !u!1001 &39324784
@@ -290,14 +278,6 @@ PrefabInstance:
     - target: {fileID: 1091465835812911944, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_Name
       value: OrangeSoldieUnit (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_RootOrder
@@ -355,10 +335,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
 --- !u!4 &39324785 stripped
@@ -376,10 +352,6 @@ PrefabInstance:
     - target: {fileID: 1091465835812911944, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_Name
       value: GreenSoldierUnit
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
-      propertyPath: _attackDamage
-      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_RootOrder
@@ -455,14 +427,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrangeSoldieUnit (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -517,10 +481,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -618,14 +578,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrangeSoldieUnit (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -680,10 +632,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -775,14 +723,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueSoldieUnit (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -839,10 +779,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
 --- !u!4 &580928021 stripped
@@ -860,10 +796,6 @@ PrefabInstance:
     - target: {fileID: 1091465835812911944, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_Name
       value: GreenSoldierUnit (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
-      propertyPath: _attackDamage
-      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_RootOrder
@@ -1655,10 +1587,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenSoldierUnit (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1733,14 +1661,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueSoldieUnit (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1795,10 +1715,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1953,14 +1869,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrangeSoldieUnit
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2015,10 +1923,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2268,14 +2172,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: OrangeSoldieUnit (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2330,10 +2226,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2487,14 +2379,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueSoldieUnit (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2551,10 +2435,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
 --- !u!4 &1475618168 stripped
@@ -2572,14 +2452,6 @@ PrefabInstance:
     - target: {fileID: 1091465835812911944, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_Name
       value: BlueSoldieUnit
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
@@ -2635,14 +2507,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5842355516439548034, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2711,14 +2575,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueSoldieUnit (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2775,10 +2631,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
 --- !u!1001 &1654331491
@@ -2791,14 +2643,6 @@ PrefabInstance:
     - target: {fileID: 1091465835812911944, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_Name
       value: OrangeSoldieUnit (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_RootOrder
@@ -2854,10 +2698,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 714dc5b369946c54cb4984419cf20e63, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3012,14 +2852,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueSoldieUnit (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3076,14 +2908,6 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5842355516439548034, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
 --- !u!1001 &1855995627
@@ -3096,10 +2920,6 @@ PrefabInstance:
     - target: {fileID: 1091465835812911944, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_Name
       value: GreenSoldierUnit (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
-      propertyPath: _attackDamage
-      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_RootOrder
@@ -3175,10 +2995,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenSoldierUnit (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: e2f640790f3dcef4ba1510461a4eca0f, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3253,14 +3069,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueSoldieUnit (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _attackDamage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1091465835812911989, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: _movementSpeed
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 1091465835812911991, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3315,10 +3123,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2738930908325946194, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3139764265734709412, guid: 21d26ec8e841d84439866e813f546cd6, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
