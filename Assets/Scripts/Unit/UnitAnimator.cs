@@ -2,34 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(UnitController))]
-public class UnitAnimator : MonoBehaviour
+public class UnitAnimator : AbstractUnitComponent
 {
-    UnitController _controller;
-
     [SerializeField] Animator _animator;
-
-    void Awake()
-    {
-        _controller = GetComponent<UnitController>();
-    }
 
     void OnEnable()
     {
-        _controller.OnStartMovement += StartMovement;
-        _controller.OnEndMovement += EndMovement;
-        _controller.OnStartAttack += Shoot;
-        _controller.OnDamageTaken += TakeDamage;
-        _controller.OnDie += Die;
+        _unit.OnStartMovement += StartMovement;
+        _unit.OnEndMovement += EndMovement;
+        _unit.OnStartAttack += Shoot;
+        _unit.OnDamageTaken += TakeDamage;
+        _unit.OnDie += Die;
     }
 
     void OnDisable()
     {
-        _controller.OnStartMovement -= StartMovement;
-        _controller.OnEndMovement -= EndMovement;
-        _controller.OnStartAttack -= Shoot;
-        _controller.OnDamageTaken -= TakeDamage;
-        _controller.OnDie -= Die;
+        _unit.OnStartMovement -= StartMovement;
+        _unit.OnEndMovement -= EndMovement;
+        _unit.OnStartAttack -= Shoot;
+        _unit.OnDamageTaken -= TakeDamage;
+        _unit.OnDie -= Die;
     }
 
     void StartMovement(Vector3 origin, Vector3 dest)

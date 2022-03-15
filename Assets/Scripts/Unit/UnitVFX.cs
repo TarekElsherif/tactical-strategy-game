@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(UnitController))]
-public class UnitVFX : MonoBehaviour
+public class UnitVFX : AbstractUnitComponent
 {
-    UnitController _unit;
-
     [Header("References:")]
     [SerializeField] Outline _outline;
     [SerializeField] SkinnedMeshRenderer _mesh;
@@ -16,11 +13,6 @@ public class UnitVFX : MonoBehaviour
     [Header("Settings")]
     [SerializeField] Color _highlightColor;
     [SerializeField] Color _selectionColor;
-
-    void Awake()
-    {
-        _unit = GetComponent<UnitController>();
-    }
 
     void OnEnable()
     {

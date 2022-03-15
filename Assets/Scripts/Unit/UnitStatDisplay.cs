@@ -3,22 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(UnitController))]
-public class UnitStatDisplay : MonoBehaviour
+public class UnitStatDisplay : AbstractUnitComponent
 {
-    UnitController _unit;
-
     [SerializeField] Slider _healthDisplay;
     [SerializeField] GameObject _movementIndicator;
     [SerializeField] LineRenderer _movementRangeCircle;
     [SerializeField] LineRenderer _attackRangeCircle;
     [SerializeField] bool _showMovementRange;
     [SerializeField] bool _showAttackRange;
-
-    void Awake()
-    {
-        _unit = GetComponent<UnitController>();
-    }
 
     void OnEnable()
     {
