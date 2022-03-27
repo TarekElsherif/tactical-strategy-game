@@ -209,7 +209,7 @@ MonoBehaviour:
   _maxHealth: 100
   _attackDamage: 50
   _attackRange: 7
-  _movementSpeed: 20
+  _movementSpeed: 10
   _movementRange: 10
 --- !u!114 &408090911025492258
 MonoBehaviour:
@@ -224,6 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _agent: {fileID: 1937449988250041129}
+  _collider: {fileID: 709638050054139927}
 --- !u!114 &1423527663997031523
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: acb112a663271ce4995d1ad13b5e1837, type: 2}
+    - target: {fileID: 709638050054139924, guid: 1fa99095e2040bb41906e3217ddd3cd9, type: 3}
+      propertyPath: _attackDamage
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 709638050054139926, guid: 1fa99095e2040bb41906e3217ddd3cd9, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -57,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 709638050054139945, guid: 1fa99095e2040bb41906e3217ddd3cd9, type: 3}
       propertyPath: m_Name
-      value: OrangeSoldieUnit
+      value: OrangeSoldierUnit
       objectReference: {fileID: 0}
     - target: {fileID: 1152855662559541895, guid: 1fa99095e2040bb41906e3217ddd3cd9, type: 3}
       propertyPath: _highlightColor.b
