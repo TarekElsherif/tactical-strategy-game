@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 423775010}
   - component: {fileID: 423775009}
   m_Layer: 0
-  m_Name: EnemyUnits 2
+  m_Name: AI_Units_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b910bb6f799bf4e83444dda0e26356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _armyName: AI 2
+  _armyName: AI 3
 --- !u!4 &423775011
 Transform:
   m_ObjectHideFlags: 0
@@ -3144,7 +3144,7 @@ GameObject:
   - component: {fileID: 2055338703}
   - component: {fileID: 2055338704}
   m_Layer: 0
-  m_Name: PlayerUnits
+  m_Name: AI_Units_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3184,7 +3184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b910bb6f799bf4e83444dda0e26356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _armyName: Player
+  _armyName: AI 1
 --- !u!114 &2055338704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3309,7 +3309,7 @@ GameObject:
   - component: {fileID: 2115489504}
   - component: {fileID: 2115489503}
   m_Layer: 0
-  m_Name: EnemyUnits 1
+  m_Name: AI_Units_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3343,7 +3343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8b910bb6f799bf4e83444dda0e26356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _armyName: AI 1
+  _armyName: AI 2
 --- !u!4 &2115489505
 Transform:
   m_ObjectHideFlags: 0
