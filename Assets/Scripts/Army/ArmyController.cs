@@ -161,6 +161,9 @@ public class ArmyController : MonoBehaviour
 
     public void MoveUnit(UnitController unit, Vector3 destination, System.Action onDone = null)
     {
+        if (_currentSelectedUnit == null)
+            return;
+
         Assert.AreEqual(_currentSelectedUnit, unit);
         Assert.AreNotEqual(_actionsPerUnit[_currentSelectedUnit], 0);
         
@@ -188,6 +191,9 @@ public class ArmyController : MonoBehaviour
 
     public void ShootUnit(UnitController unit, UnitController victim, System.Action onDone = null)
     {
+        if (_currentSelectedUnit == null)
+            return;
+
         Assert.AreEqual(_currentSelectedUnit, unit);
         Assert.AreNotEqual(_actionsPerUnit[_currentSelectedUnit], 0);
 
@@ -213,6 +219,9 @@ public class ArmyController : MonoBehaviour
 
     public void SkipTurn(UnitController unit, System.Action onDone = null)
     {
+        if (_currentSelectedUnit == null)
+            return;
+
         Assert.AreEqual(_currentSelectedUnit, unit);
         Assert.AreNotEqual(_actionsPerUnit[_currentSelectedUnit], 0);
         DecrementUnitActions(unit);

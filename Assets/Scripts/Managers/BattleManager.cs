@@ -73,10 +73,12 @@ public class BattleManager : MonoBehaviour
             GoToNextTurn();
 
         armyController.SetActionsPerUnits(_actionsPerUnit);
-        _currentActivePlayer.enabled = true;
-
-        if (OnTurnStarted != null)
-            OnTurnStarted(_currentActivePlayer, armyController);
+        if (_currentActivePlayer != null)
+        {
+            _currentActivePlayer.enabled = true;
+            if (OnTurnStarted != null)
+                OnTurnStarted(_currentActivePlayer, armyController);
+        }
     }
 
     void EndBattle(AbstractCommandInput winner)
@@ -84,7 +86,7 @@ public class BattleManager : MonoBehaviour
         ArmyController wonArmy = _playersToControllers[winner];
         if (OnGameEnd != null)
             OnGameEnd(winner, wonArmy);
-        Debug.Log(wonArmy.ArmyName + " won!");
+        //Debug.Log(wonArmy.ArmyName + " won!");
     }
 
     void CheckForWinner()
