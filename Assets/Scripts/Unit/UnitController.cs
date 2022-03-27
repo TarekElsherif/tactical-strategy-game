@@ -9,6 +9,7 @@ public class UnitController : MonoBehaviour
     AbstractUnit _unit;
 
     [SerializeField] NavMeshAgent _agent;
+    [SerializeField] Collider _collider;
 
     public System.Action OnSelect;
     public System.Action OnUnselect;
@@ -35,6 +36,11 @@ public class UnitController : MonoBehaviour
     public float Health
     {
         get { return _unit.Health; }
+    }
+
+    public float MovementSpeed
+    {
+        get { return _unit.MovementSpeed; }
     }
 
     public float MovementRange
@@ -148,6 +154,9 @@ public class UnitController : MonoBehaviour
 
     public void Die()
     {
+        _collider.enabled = false;
+        _agent.enabled = false;
+
         if (OnDie != null)
             OnDie(this);
     }

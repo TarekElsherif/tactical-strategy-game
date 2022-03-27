@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class UnitAnimator : AbstractUnitComponent
 {
+    const string c_moveParam = "moving";
+    const string c_shootParam = "shoot";
+    const string c_hitParam = "hit";
+    const string c_deadParam = "dead";
+
     [SerializeField] Animator _animator;
 
     void OnEnable()
@@ -26,26 +31,28 @@ public class UnitAnimator : AbstractUnitComponent
 
     void StartMovement(Vector3 origin, Vector3 dest)
     {
-        _animator.SetBool("moving", true);
+        _animator.speed = _unit.MovementSpeed / 10;
+        _animator.SetBool(c_moveParam, true);
     }
 
     void EndMovement(Vector3 dest)
     {
-        _animator.SetBool("moving", false);
+        _animator.speed = 1;
+        _animator.SetBool(c_moveParam, false);
     }
 
     void Shoot(UnitController victim)
     {
-        _animator.SetTrigger("shoot");
+        _animator.SetTrigger(c_shootParam);
     }
 
     void TakeDamage(float damage)
     {
-        _animator.SetTrigger("hit");
+        _animator.SetTrigger(c_hitParam);
     }
 
     void Die(UnitController unit)
     {
-        _animator.SetBool("dead", true);
+        _animator.SetBool(c_deadParam, true);
     }
 }
